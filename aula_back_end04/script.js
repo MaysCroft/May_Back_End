@@ -15,7 +15,7 @@ calc.addEventListener('submit', (event) => {
     let texto = document.createElement('h3');
 
     texto.innerHTML = `- Produto: ${produto} - Valor: R$ ${valor} <br/> 
-                       - Em Conversão Direta fica em: <br/> 
+                       - Em Conversão Direta: <br/> 
                        - Convertido em Euro: € ${euro} <br/>
                        - Convertido em Dólar: $ ${dolar} <br/>
                        - Convertido em Libra: £ ${libra} <br/>
