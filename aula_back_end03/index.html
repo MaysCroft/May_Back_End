@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aula Javascript 03 </title>
+</head>
+<body>
+
+    <h3> Calculadora JS </h3>
+    <form action="#" method="post" name="calc" id="calc">
+        <label for="numero 01"> Numero 01: </label>
+        <input type="number" name="num1" id="num1" placeholder="Digite um Numero"/>
+        <br/> <br/>
+
+        <label for="Numero 02"> Numero 02: </label>
+        <input type="number" name="num2" id="num2" placeholder="Digite um Numero"/>
+        <br/> <br/>
+
+        <label for="Numero 03"> Numero 03: </label>
+        <input type="number" name="num3" id="num3" placeholder="Digite um Numero"/>
+        <br/> <br/>
+
+        <label for="Operação"> Operação: </label>
+        <select name="op" id="op">
+            <option value="" selected> --- SELECIONE --- </option>
+            <option value="soma"> SOMAR </option>
+            <option value="sub"> SUBTRAIR </option>
+            <option value="mult"> MULTIPLICAR </option>
+            <option value="div"> DIVIDIR </option>
+            <option value="media"> MÉDIA </option>
+        </select>
+        <br/> <br/>
+
+        <input type="submit" name="calcular" id="calcular" value="CALCULAR">
+    </form>
+</body>
+
+<script src="script.js"></script>
+</html>
